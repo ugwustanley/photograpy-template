@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+           font-family:Roboto;
+        }
+       .service-head{
+        font-family: Parisienne;
+          color: #FEDA6A;
+          font-size: 90px;
+          padding-top:70px !important;
+       }
+          .service-home{
+              width:100%;
+              height:600px;
+              background:url('./asset/Rectangle 23 (1).png') !important;
+              background-repeat: no-repeat !important;
+              background-color: #FEDA6A;
+              background-size: cover !important;
+          }
+          .service-home-hr{
+              color:white !important;
+              height:3px;
+              background-color: #FFF4FF;
+              width:200px;
+              margin:auto;
+              border-radius: 2px;
+          }
+          .service-todo-box{
+            width: 240px;
+            height: 300px;
+            background: #800080;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+            margin-top:50px;
+          }
+          .service-gallary{
+              max-width:900px;
+              min-height:800px;
+              margin-top:70px;
+              background: #FFF4FF;
+          }
+          .service-gallary-head{
+              min-height: 120px;
+          }
+          .service-img-photo{
+              padding:20px;
+          }
+          #service-todo{
+           flex-wrap: wrap;
+          }
+          .service-intro{
+              min-height: 600px;
+
+          }
+          img{
+              max-width:100%;
+          }
+          .footer-txt-head{
+               color: #FEDA6A;
+               font-family: Roboto;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 22px;
+               line-height: 26px;
+          }
+         
+    </style>
+     <div class="jumbotron jumbotron-fluid  service-home">
+
+          <h1 class="pt-5 text-center service-head ">Memories in a Shot</h1>
+
+          <div class="service-home-hr"></div>
+
+          <p class="text-center  mt-4 text-justify" style="color:white;">Photography is more than taking pictures. <br> It is the art of creating perfect Memories for a Lifetime</p>
+    
+        </div>
+<div class=" container service-intro">
+    <p class="text-center mb-5"> Hi! I am Mo. I am a Newyork based Photographer. <br> I don’t just take photographs, <br> I give you a chance to relive your most valuable Memories</p>
+   
+    <div style="display:flex; justify-content:center; flex-wrap: wrap;" class="mb-5">
+        
+           <img class=" img-responsive img-rounded " src="./asset/Rectangle 24.png" alt="not loaded">
+          
+           <div style="max-width:220px; min-height:310px" class="ml-5"><h5 class="">Semper enim, euismod molestie et in leo hendrerit tellus. Sit a quis accumsan cursus in ultrices. Placerat sed ut porttitor pharetra massa nulla at diam. Risus, enim ut mattis feugiat laoreet. Sed nisl id iaculis senectus adipiscing elementum in diam imperdiet. Vitae tincidunt porttitor mauris amet, vel malesuada lectus viverra. Ac nunc elementum aenean faucibus mauris. Accumsan metus tempor</h5>
+           
+        </div></div></div></div>
+   
+     <div class="jumbotron jumbotron-fluid" style="min-height:600px; background: #FFF4FF;">
+           
+        <div style="width: 100%; height: 30px; border-bottom: 8px solid #800080; text-align: center">
+            
+            <span style="font-size: 40px; background-color: #FFF4FF; padding: 10px 25px 25px 25px; text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); ">
+             WHAT I DO
+           
+            </span>
+       </div>
+       
+       <div class="container service-todo" id="service-todo" style="display:flex; justify-content: space-evenly;">
+              <div>
+                   <div class="service-todo-box"></div>
+                   <div class="service-todo-box"></div>
+              </div>
+              <div>
+                   <div class="service-todo-box"></div>
+                   <div class="service-todo-box"></div>
+              </div>
+              <div>
+                   <div class="service-todo-box">0</div>
+                   <div class="service-todo-box">0</div>
+              </div>
+        </div>  
+    </div>
+    <div style="width: 100%; height: 30px; border-bottom: 8px solid #800080; text-align: center">
+        <span style="font-size: 40px; background-color: #FFFFFF; padding: 10px 25px 25px 25px;text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); ">
+         MY GALLERY
+        </span>
+        <div class="service-gallary container p-0">
+           <div class="service-gallary-head jumbotron jumbotron-fluid p-2" style="background-color: #800080;">
+               <h1 class=""style="color:white;">Wedding Photography</h1>
+               <h6 style="color: #FEDA6A;"> Tempor amet, ultrices quisque enim, nunc et,<br> non elementum faucibus</h6>
+           </div>
+           <div class="jumbotron jumbotron-fluid" style="min-height:680px; background: #FFF4FF;">
+            <img src="./asset/Rectangle 38.png" alt="" class="service-img-photo">
+            <img src="./asset/Rectangle 41.png" alt="" class="service-img-photo">
+            <img src="./asset/Rectangle 40.png" alt="" class="service-img-photo">
+            <img src="./asset/Rectangle 39.png" alt="" class="service-img-photo">
+            <img src="./asset/Rectangle 42.png" alt="" class="service-img-photo">
+            <img src="./asset/Rectangle 43.png" alt="" class="service-img-photo">
+        </div>
+        
+        </div>
+       
+         <div class="service-gallary container p-0">
+            <div class="service-gallary-head jumbotron jumbotron-fluid p-2" style="background-color: #800080;">
+                <h1 class=""style="color:white;">Nature Photography</h1>
+                <h6 style="color: #FEDA6A;"> Tempor amet, ultrices quisque enim, nunc et,<br> non elementum faucibus</h6>
+            </div>
+            <div class="jumbotron jumbotron-fluid" style="min-height:680px; background: #FFF4FF;">
+             <img src="./asset/Rectangle 38 (3).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 39 (2).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 40 (2).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 41 (1).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 42 (2).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 43 (2).png" alt="" class="service-img-photo">
+         </div>
+         
+         </div>
+         
+         <div class="service-gallary container p-0">
+            <div class="service-gallary-head jumbotron jumbotron-fluid p-2" style="background-color: #800080;">
+                <h1 class=""style="color:white;">Portrait Photography</h1>
+                <h6 style="color: #FEDA6A;"> Tempor amet, ultrices quisque enim, nunc et,<br> non elementum faucibus</h6>
+            </div>
+            <div class="jumbotron jumbotron-fluid" style="min-height:680px; background: #FFF4FF;">
+             <img src="./asset/Rectangle 38 (4).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 39 (3).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 42 (3).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 41 (2).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 43 (3).png" alt="" class="service-img-photo">
+         </div>
+         
+         </div>
+         <div class="service-gallary container p-0">
+            <div class="service-gallary-head jumbotron jumbotron-fluid p-2" style="background-color: #800080;">
+                <h1 class=""style="color:white;">Urban Photography</h1>
+                <h6 style="color: #FEDA6A;"> Tempor amet, ultrices quisque enim, nunc et,<br> non elementum faucibus</h6>
+            </div>
+            <div class="jumbotron jumbotron-fluid" style="min-height:680px; background: #FFF4FF;">
+             <img src="./asset/Rectangle 38 (1).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 39 (1).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 40 (1).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 42 (1).png" alt="" class="service-img-photo">
+             <img src="./asset/Rectangle 43 (1).png" alt="" class="service-img-photo">
+         </div>
+         </div>
+       <!--<div class="container-fluid px-0" style="min-height:400px; background-color: #B16EB1;">
+            <div class="service-footer-half1 container-fluid p-5" style="min-height:300px;display:flex;justify-content: space-evenly;color:white; background-color:#800080;flex-wrap: wrap;">
+            <div class="col-md-6">
+                <h3 class="footer-txt-head">About Mosnap</h3>
+                <p style="color:white">Mosnap is a company that deals with varieties of photography and videography. We are built to get your ceremonies fun feel and also memoriable. We have branches accross the Countries and our mission as been quite impressive.</p>
+            </div>
+            <div style="width:200px;background-color: bisque;">
+                <h3 class="footer-txt-head" style="display:flex; justify-content:center !important;">Navigations</h3>
+                <div style="width:80px;padding-left:2px;"><img src="./asset/Vector (6).png" alt=""><p style="float:right; margin-left:20px;">Home</p></div>
+                <div style="width:80px;padding-left:0px;" class="p-1"><img src="./asset/Vector (9).png" alt=""><b style="float:right;"> Gallery</b></div>
+                <div style="width:80px"><img src="./asset/Vector (8).png" alt=""><b style="float:right;"> Service</b></div>
+                <div style="width:100px"><img src="./asset/Vector (7).png" alt=""><b style="float:right;"> Contact Us</b></div>
+            </div>
+            <div>
+                <h3 class="footer-txt-head">Contact Us</h3>
+            </div>
+            </div>
+              
+            <div class="service-footer-half2"></div>
+        </div>-->  
+      </div>
+</body>
+</html>
